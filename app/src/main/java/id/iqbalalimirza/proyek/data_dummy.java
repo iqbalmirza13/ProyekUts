@@ -24,9 +24,7 @@ public class data_dummy {
     };
 
 
-    public static int foto_pemain[] = {
-
-    };
+    //public static int foto_pemain[] = {};
 
     static ArrayList<model_pemain> getListData() {
         ArrayList<model_pemain> List = new ArrayList<>();
@@ -34,7 +32,7 @@ public class data_dummy {
             model_pemain pemain = new model_pemain();
             pemain.setNama(playername[position]);
             pemain.setBiodata(biodata[position]);
-            pemain.setFoto_pemain(foto_pemain[position]);
+            //pemain.setFoto_pemain(foto_pemain[position]);
             List.add(pemain);
         }
         return List;
