@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".biodata">
+
+    <ImageView
+        android:id="@+id/foto_pemain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/bauman" />
+
+    <TextView
+        android:id="@+id/biodata_pemain"
+        android:layout_width="196dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="16dp"
+        android:text="biodata"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_pemain" />
+
+    <TextView
+        android:id="@+id/nama_pemain"
+        android:layout_width="145dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="37dp"
+        android:text="nama"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto_pemain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
